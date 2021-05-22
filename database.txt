@@ -7,4 +7,7 @@ user
 
 message
 
-- text NOT NULL
+- id INT NOT NULL AUTO_INCREMENT
+- time DATETIME NOT NULL
+- session_id VARCHAR(255) NOT NULL
+- name VARCHAR(255) NOT NULL
